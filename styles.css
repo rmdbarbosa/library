@@ -37,10 +37,37 @@ body {
   border: 1px solid #3d6e5b;
 }
 
-.btn {
+.new-book-btn {
   background-color: #f0a14c;
   width: 120px;
   height: 50px;
   border-radius: 20px;
   border: none;
+  cursor: pointer;
+}
+.submitBtn {
+  background-color: #f0a14c;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: #f0a14c;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-read-btn {
+  background-color: #f0a14c;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
 }

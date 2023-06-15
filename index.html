@@ -11,63 +11,19 @@
     <div class="header">
       <h1>Library</h1>
     </div>
-    <div class="library">
-      <div class="books">
-        <img
-          src="https://prodimage.images-bn.com/pimages/9780345445605_p0_v1_s550x406.jpg"
-          alt=""
-        />
-        <h2>The Hobbit</h2>
-        <p>J.R.R. Tolkien</p>
-        <p>310</p>
-        <p>Not read yet</p>
-      </div>
-      <div class="books">
-        <img
-          src="https://prodimage.images-bn.com/pimages/9780345445605_p0_v1_s550x406.jpg"
-          alt=""
-        />
-        <h2>The Hobbit</h2>
-        <p>J.R.R. Tolkien</p>
-        <p>310</p>
-        <p>Not read yet</p>
-      </div>
-      <div class="books">
-        <img
-          src="https://prodimage.images-bn.com/pimages/9780345445605_p0_v1_s550x406.jpg"
-          alt=""
-        />
-        <h2>The Hobbit</h2>
-        <p>J.R.R. Tolkien</p>
-        <p>310</p>
-        <p>Not read yet</p>
-      </div>
-      <div class="books">
-        <img
-          src="https://prodimage.images-bn.com/pimages/9780345445605_p0_v1_s550x406.jpg"
-          alt=""
-        />
-        <h2>The Hobbit</h2>
-        <p>J.R.R. Tolkien</p>
-        <p>310</p>
-        <p>Not read yet</p>
-      </div>
-      <div class="books">
-        <img
-          src="https://prodimage.images-bn.com/pimages/9780345445605_p0_v1_s550x406.jpg"
-          alt=""
-        />
-        <h2>The Hobbit</h2>
-        <p>J.R.R. Tolkien</p>
-        <p>310</p>
-        <p>Not read yet</p>
-      </div>
-    </div>
-    <div class="add-book" style="position: relative">
-      <button class="btn">Add new book</button>
-      <form action="submit">
-        <input type="hidden" />
-      </form>
-    </div>
+    <div class="library"></div>
+
+    <button class="new-book-btn">Add new book</button>
+    <form class="new-book-form" style="display: none">
+      <label for="title">Title:</label>
+      <input type="text" id="title" />
+      <label for="author">Author</label>
+      <input type="text" id="author" />
+      <label for="pages">Pages:</label>
+      <input type="number" id="pages" />
+      <label for="read">Read:</label>
+      <input type="checkbox" id="read" />
+      <input class="submitBtn" type="submit" value="Add Book" />
+    </form>
   </body>
 </html>
