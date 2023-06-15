@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(1, 103, 119);
+}
+
+.library {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  width: 80vw;
+  margin: auto;
+}
+
+.books {
+  width: 300px;
+  padding: 5px;
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #6e817b;
+}
+
+.books > h2 {
+  color: #f0a14c;
+}
+
+.img {
+  width: 200px;
+  height: 300px;
+  margin: 10px auto 5px auto;
+  border: 1px solid #3d6e5b;
+}
+
+.btn {
+  background-color: #f0a14c;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+}
