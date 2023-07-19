@@ -1,3 +1,13 @@
+:root {
+  --clr-dark: #020617;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-rose: #e11d48;
+  --clr-indigo: #4f46e5;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,7 +16,11 @@
 }
 
 body {
-  background-color: rgb(1, 103, 119);
+  background-color: var(--clr-dark);
+}
+
+form {
+  color: var(--clr-light);
 }
 
 .library {
